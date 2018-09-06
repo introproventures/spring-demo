@@ -3,7 +3,7 @@ pipeline {
       label "jenkins-maven"
     }
     environment {
-      ORG               = 'introproventures-jenkins-x'
+      ORG               = 'introproventures'
       APP_NAME          = 'spring-demo'
       CHARTMUSEUM_CREDS = credentials('jenkins-x-chartmuseum')
     }
